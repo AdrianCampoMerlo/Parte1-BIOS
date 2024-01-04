@@ -1,0 +1,24 @@
+{
+  "environment": "web",
+  "format": "html",
+  "prefix": "https://storage.googleapis.com",
+  "mainga": "UA-49880327-14",
+  "updated": "2023-10-23T19:29:02+02:00",
+  "id": "Parte 1 Bios",
+  "duration": 30,
+  "title": "BIOS/UEFI",
+  "summary": "Parte 1 BIOS",
+  "source": "Parte1.md",
+  "theme": "",
+  "status": [
+    "published"
+  ],
+  "category": [
+    "uefi",
+    "bios"
+  ],
+  "tags": [
+    "web"
+  ],
+  "url": "Parte 1 Bios"
+}

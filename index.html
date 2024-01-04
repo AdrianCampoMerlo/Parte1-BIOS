@@ -1,0 +1,88 @@
+
+<!doctype html>
+
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+  <meta name="theme-color" content="#4F7DC9">
+  <meta charset="UTF-8">
+  <title>BIOS/UEFI</title>
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Code+Pro:400|Roboto:400,300,400italic,500,700|Roboto+Mono">
+  <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://storage.googleapis.com/claat-public/codelab-elements.css">
+  <style>
+    .success {
+      color: #1e8e3e;
+    }
+    .error {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <google-codelab-analytics gaid="UA-49880327-14"></google-codelab-analytics>
+  <google-codelab codelab-gaid=""
+                  id="Parte 1 Bios"
+                  title="BIOS/UEFI"
+                  environment="web"
+                  feedback-link="">
+    
+      <google-codelab-step label="Qué es BIOS/UEFI" duration="5">
+        <p>La BIOS (o UEFI, que es su versión más moderna) es lo primero que se ejecuta en un ordenador al encenderse. Su función, explicada de una manera muy poco técnica, es recordar al dispositivo quién es, qué hardware tiene instalado y qué es lo primero que debe arrancar.</p>
+<p>Si no configuramos los parámetros necesarios en la BIOS para aportar seguridad al sistema, es muy sencillo manipular el arranque para conseguir acceso al dispositivo. Los parámetros configurables dependen del modelo concreto que queramos configurar.</p>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Contraseña de arranque" duration="5">
+        <p>Si se activa, solicitará una contraseña para modificar los parámetros básicos de la BIOS. En algunos modelos de BIOS, el user password también se puede referir a la descrita a continuación.</p>
+<p class="image-container"><img alt="1" src="img\\ece34080e712fdac.png"></p>
+<p>Una vez dentro de la BIOS/UEFI buscamos la pestaña donde esté nuestra configuración de seguridad, en esta, tenemos una pestaña que nos marca algunos comandos de seguridad.</p>
+<p class="image-container"><img alt="2" src="img\\98bd1c4ecdbf49fb.png"></p>
+<p>Simplemente tenemos que indicar la contraseña que queremos colocar para el arranque y darle al botón enviar.</p>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Contraseña administrador" duration="5">
+        <p>Si se activa, solicitará una contraseña para modificar los parámetros de la BIOS.</p>
+<p>Justo al lado de la contraseña de arranque del apartado anterior, tenemos la contraseña para el administrador.</p>
+<p class="image-container"><img alt="3" src="img\\756410304d26801e.png"></p>
+<p>Igual que anteriormente, solo tenemos que ingresar la contraseña que queremos poner y presionar el botón enviar.</p>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Arranque externo" duration="5">
+        <p>En este caso, debemos ir al menú lateral y seleccionar la ventana de opciones de arranque. Dentro de esta pestaña podemos habilitar o deshabilitar los tipos de arranque, tanto por USB como por red, asi como el protocolo que queremos seguir si arrancaramos el equipo por red. También tenemos una pestaña en la cual indicar si queremos un arranque seguro.</p>
+<p class="image-container"><img alt="4" src="img\\1f583b11e09d658d.png"></p>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Orden de arranque" duration="5">
+        <p>Define el orden en el que se produce el arranque del sistema. Cuando el dispositivo se inicie, buscará un posible arranque en el primer dispositivo que se indique, si no lo encuentra, lo intentará en el segundo, y así sucesivamente.</p>
+<p>En la misma pestaña que el punto anterior, tenemos a mano derecha las opciones de orden de arranque, en la cual puedes modificar y desectivar los tipos de arranque que tiene el dispositivo.</p>
+<p class="image-container"><img alt="5" src="img\\8cf17bea891dcec2.png"></p>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Otras opciones" duration="5">
+        <p>Otra opcion que nos presenta esta BIOS/EUFI, podemos esconder el tiempo disponible para hacer clic en la tecla que nos deja acceder a los usos de configuración del sistema.</p>
+<p class="image-container"><img alt="6" src="img\\29ecd185898fbe29.png"></p>
+<p>En nuestro caso lo tenemos colocado a 0, puesto que así nos quita el pitido sonoro de la contraseña tanto como esconde la tecla para entrar en la configuración.</p>
+
+
+      </google-codelab-step>
+    
+  </google-codelab>
+
+  <script src="https://storage.googleapis.com/claat-public/native-shim.js"></script>
+  <script src="https://storage.googleapis.com/claat-public/custom-elements.min.js"></script>
+  <script src="https://storage.googleapis.com/claat-public/prettify.js"></script>
+  <script src="https://storage.googleapis.com/claat-public/codelab-elements.js"></script>
+  <script src="//support.google.com/inapp/api.js"></script>
+
+</body>
+</html>
